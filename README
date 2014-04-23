@@ -1,8 +1,1 @@
-This folder contains client certificates for you to test.
-
-An example usage of python client:		
-
-	mqttc.tls_set(CA_CERTS, CERTFILE, KEYFILE)
-	mqttc.connect(YOUR_BROKER_IP, PORT)
-
-you need to specify the location of your CA_CERTS, CERTFILE, KEYFILE, and the default PORT is 8883 for secure connection.
+This is a simple example of using MQTT protocol on IPhone or iPad. It works with openssl and ARC
