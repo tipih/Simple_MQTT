@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MqttClient.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+
+@property (readonly) MqttClient *mqttclient;
 @property (strong, nonatomic) UIWindow *window;
 
 @end
