@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		606E82B51907A6B900306C71 /* logging_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 606E829D1907A6B900306C71 /* logging_mosq.c */; };
-		606E82B61907A6B900306C71 /* memory_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 606E829F1907A6B900306C71 /* memory_mosq.c */; };
-		606E82B71907A6B900306C71 /* messages_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 606E82A11907A6B900306C71 /* messages_mosq.c */; };
-		606E82B81907A6B900306C71 /* mosquitto.c in Sources */ = {isa = PBXBuildFile; fileRef = 606E82A31907A6B900306C71 /* mosquitto.c */; };
-		606E82B91907A6B900306C71 /* net_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 606E82A71907A6B900306C71 /* net_mosq.c */; };
-		606E82BA1907A6B900306C71 /* read_handle.c in Sources */ = {isa = PBXBuildFile; fileRef = 606E82A91907A6B900306C71 /* read_handle.c */; };
-		606E82BB1907A6B900306C71 /* read_handle_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 606E82AB1907A6B900306C71 /* read_handle_client.c */; };
-		606E82BC1907A6B900306C71 /* read_handle_shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 606E82AC1907A6B900306C71 /* read_handle_shared.c */; };
-		606E82BD1907A6B900306C71 /* send_client_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 606E82AD1907A6B900306C71 /* send_client_mosq.c */; };
-		606E82BE1907A6B900306C71 /* send_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 606E82AE1907A6B900306C71 /* send_mosq.c */; };
-		606E82BF1907A6B900306C71 /* thread_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 606E82B01907A6B900306C71 /* thread_mosq.c */; };
-		606E82C01907A6B900306C71 /* util_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 606E82B11907A6B900306C71 /* util_mosq.c */; };
-		606E82C11907A6B900306C71 /* will_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 606E82B31907A6B900306C71 /* will_mosq.c */; };
+		600F00FD1907BF66005BDBBD /* ca.crt in Resources */ = {isa = PBXBuildFile; fileRef = 600F00F61907BF66005BDBBD /* ca.crt */; };
+		600F00FE1907BF66005BDBBD /* ipad.crt in Resources */ = {isa = PBXBuildFile; fileRef = 600F00F71907BF66005BDBBD /* ipad.crt */; };
+		600F00FF1907BF66005BDBBD /* ipad.key in Resources */ = {isa = PBXBuildFile; fileRef = 600F00F81907BF66005BDBBD /* ipad.key */; };
+		600F01001907BF66005BDBBD /* iphone.crt in Resources */ = {isa = PBXBuildFile; fileRef = 600F00F91907BF66005BDBBD /* iphone.crt */; };
+		600F01011907BF66005BDBBD /* iphone.key in Resources */ = {isa = PBXBuildFile; fileRef = 600F00FA1907BF66005BDBBD /* iphone.key */; };
+		600F01021907BF66005BDBBD /* remote.crt in Resources */ = {isa = PBXBuildFile; fileRef = 600F00FB1907BF66005BDBBD /* remote.crt */; };
+		600F01031907BF66005BDBBD /* remote.key in Resources */ = {isa = PBXBuildFile; fileRef = 600F00FC1907BF66005BDBBD /* remote.key */; };
+		600F01081907BF83005BDBBD /* logging_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 600F01061907BF83005BDBBD /* logging_mosq.c */; };
+		600F01211907BFAA005BDBBD /* memory_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 600F01091907BFAA005BDBBD /* memory_mosq.c */; };
+		600F01221907BFAA005BDBBD /* messages_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 600F010B1907BFAA005BDBBD /* messages_mosq.c */; };
+		600F01231907BFAA005BDBBD /* mosquitto.c in Sources */ = {isa = PBXBuildFile; fileRef = 600F010E1907BFAA005BDBBD /* mosquitto.c */; };
+		600F01241907BFAA005BDBBD /* net_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 600F01101907BFAA005BDBBD /* net_mosq.c */; };
+		600F01251907BFAA005BDBBD /* read_handle_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 600F01121907BFAA005BDBBD /* read_handle_client.c */; };
+		600F01261907BFAA005BDBBD /* read_handle_shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 600F01131907BFAA005BDBBD /* read_handle_shared.c */; };
+		600F01271907BFAA005BDBBD /* read_handle.c in Sources */ = {isa = PBXBuildFile; fileRef = 600F01141907BFAA005BDBBD /* read_handle.c */; };
+		600F01281907BFAA005BDBBD /* send_client_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 600F01161907BFAA005BDBBD /* send_client_mosq.c */; };
+		600F01291907BFAA005BDBBD /* send_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 600F01171907BFAA005BDBBD /* send_mosq.c */; };
+		600F012B1907BFAA005BDBBD /* thread_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 600F011C1907BFAA005BDBBD /* thread_mosq.c */; };
+		600F012C1907BFAA005BDBBD /* util_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 600F011D1907BFAA005BDBBD /* util_mosq.c */; };
+		600F012D1907BFAA005BDBBD /* will_mosq.c in Sources */ = {isa = PBXBuildFile; fileRef = 600F011F1907BFAA005BDBBD /* will_mosq.c */; };
+		600F01301907C013005BDBBD /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 600F012E1907C013005BDBBD /* libcrypto.a */; };
+		600F01311907C013005BDBBD /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 600F012F1907C013005BDBBD /* libssl.a */; };
 		606E82CD1907A70A00306C71 /* ServerBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 606E82C51907A70A00306C71 /* ServerBrowser.m */; };
 		606E82CE1907A70A00306C71 /* MqttClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 606E82C91907A70A00306C71 /* MqttClient.m */; };
 		606E82CF1907A70A00306C71 /* MqttMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 606E82CC1907A70A00306C71 /* MqttMessage.m */; };
-		607363C81907B07D002DFA3B /* ca.crt in Resources */ = {isa = PBXBuildFile; fileRef = 607363C01907B07D002DFA3B /* ca.crt */; };
-		607363C91907B07D002DFA3B /* ipad.crt in Resources */ = {isa = PBXBuildFile; fileRef = 607363C11907B07D002DFA3B /* ipad.crt */; };
-		607363CA1907B07D002DFA3B /* ipad.key in Resources */ = {isa = PBXBuildFile; fileRef = 607363C21907B07D002DFA3B /* ipad.key */; };
-		607363CB1907B07D002DFA3B /* iphone.crt in Resources */ = {isa = PBXBuildFile; fileRef = 607363C31907B07D002DFA3B /* iphone.crt */; };
-		607363CC1907B07D002DFA3B /* iphone.key in Resources */ = {isa = PBXBuildFile; fileRef = 607363C41907B07D002DFA3B /* iphone.key */; };
-		607363CD1907B07D002DFA3B /* remote.crt in Resources */ = {isa = PBXBuildFile; fileRef = 607363C51907B07D002DFA3B /* remote.crt */; };
-		607363CE1907B07D002DFA3B /* remote.key in Resources */ = {isa = PBXBuildFile; fileRef = 607363C61907B07D002DFA3B /* remote.key */; };
 		607363CF1907B07D002DFA3B /* README in Resources */ = {isa = PBXBuildFile; fileRef = 607363C71907B07D002DFA3B /* README */; };
 		60E37EDF1907A33900D45BA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E37EDE1907A33900D45BA8 /* Foundation.framework */; };
 		60E37EE11907A33900D45BA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E37EE01907A33900D45BA8 /* CoreGraphics.framework */; };
@@ -45,8 +47,6 @@
 		60E37F001907A33900D45BA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E37EE21907A33900D45BA8 /* UIKit.framework */; };
 		60E37F081907A33900D45BA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60E37F061907A33900D45BA8 /* InfoPlist.strings */; };
 		60E37F0A1907A33900D45BA8 /* MQTT_Simple_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E37F091907A33900D45BA8 /* MQTT_Simple_appTests.m */; };
-		60E37F161907A3A600D45BA8 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E37F141907A3A600D45BA8 /* libcrypto.a */; };
-		60E37F171907A3A600D45BA8 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E37F151907A3A600D45BA8 /* libssl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +60,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		600F00F61907BF66005BDBBD /* ca.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ca.crt; path = mqttLib/ca.crt; sourceTree = "<group>"; };
+		600F00F71907BF66005BDBBD /* ipad.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ipad.crt; path = mqttLib/ipad.crt; sourceTree = "<group>"; };
+		600F00F81907BF66005BDBBD /* ipad.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ipad.key; path = mqttLib/ipad.key; sourceTree = "<group>"; };
+		600F00F91907BF66005BDBBD /* iphone.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = iphone.crt; path = mqttLib/iphone.crt; sourceTree = "<group>"; };
+		600F00FA1907BF66005BDBBD /* iphone.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = iphone.key; path = mqttLib/iphone.key; sourceTree = "<group>"; };
+		600F00FB1907BF66005BDBBD /* remote.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = remote.crt; path = mqttLib/remote.crt; sourceTree = "<group>"; };
+		600F00FC1907BF66005BDBBD /* remote.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = remote.key; path = mqttLib/remote.key; sourceTree = "<group>"; };
+		600F01041907BF83005BDBBD /* dummypthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dummypthread.h; path = mqttLib/dummypthread.h; sourceTree = "<group>"; };
+		600F01061907BF83005BDBBD /* logging_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = logging_mosq.c; path = mqttLib/logging_mosq.c; sourceTree = "<group>"; };
+		600F01071907BF83005BDBBD /* logging_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = logging_mosq.h; path = mqttLib/logging_mosq.h; sourceTree = "<group>"; };
+		600F01091907BFAA005BDBBD /* memory_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = memory_mosq.c; path = mqttLib/memory_mosq.c; sourceTree = "<group>"; };
+		600F010A1907BFAA005BDBBD /* memory_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = memory_mosq.h; path = mqttLib/memory_mosq.h; sourceTree = "<group>"; };
+		600F010B1907BFAA005BDBBD /* messages_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = messages_mosq.c; path = mqttLib/messages_mosq.c; sourceTree = "<group>"; };
+		600F010C1907BFAA005BDBBD /* messages_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = messages_mosq.h; path = mqttLib/messages_mosq.h; sourceTree = "<group>"; };
+		600F010D1907BFAA005BDBBD /* mosquitto_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mosquitto_internal.h; path = mqttLib/mosquitto_internal.h; sourceTree = "<group>"; };
+		600F010E1907BFAA005BDBBD /* mosquitto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mosquitto.c; path = mqttLib/mosquitto.c; sourceTree = "<group>"; };
+		600F010F1907BFAA005BDBBD /* mosquitto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mosquitto.h; path = mqttLib/mosquitto.h; sourceTree = "<group>"; };
+		600F01101907BFAA005BDBBD /* net_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = net_mosq.c; path = mqttLib/net_mosq.c; sourceTree = "<group>"; };
+		600F01111907BFAA005BDBBD /* net_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = net_mosq.h; path = mqttLib/net_mosq.h; sourceTree = "<group>"; };
+		600F01121907BFAA005BDBBD /* read_handle_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = read_handle_client.c; path = mqttLib/read_handle_client.c; sourceTree = "<group>"; };
+		600F01131907BFAA005BDBBD /* read_handle_shared.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = read_handle_shared.c; path = mqttLib/read_handle_shared.c; sourceTree = "<group>"; };
+		600F01141907BFAA005BDBBD /* read_handle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = read_handle.c; path = mqttLib/read_handle.c; sourceTree = "<group>"; };
+		600F01151907BFAA005BDBBD /* read_handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = read_handle.h; path = mqttLib/read_handle.h; sourceTree = "<group>"; };
+		600F01161907BFAA005BDBBD /* send_client_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = send_client_mosq.c; path = mqttLib/send_client_mosq.c; sourceTree = "<group>"; };
+		600F01171907BFAA005BDBBD /* send_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = send_mosq.c; path = mqttLib/send_mosq.c; sourceTree = "<group>"; };
+		600F01181907BFAA005BDBBD /* send_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = send_mosq.h; path = mqttLib/send_mosq.h; sourceTree = "<group>"; };
+		600F011C1907BFAA005BDBBD /* thread_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = thread_mosq.c; path = mqttLib/thread_mosq.c; sourceTree = "<group>"; };
+		600F011D1907BFAA005BDBBD /* util_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = util_mosq.c; path = mqttLib/util_mosq.c; sourceTree = "<group>"; };
+		600F011E1907BFAA005BDBBD /* util_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = util_mosq.h; path = mqttLib/util_mosq.h; sourceTree = "<group>"; };
+		600F011F1907BFAA005BDBBD /* will_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = will_mosq.c; path = mqttLib/will_mosq.c; sourceTree = "<group>"; };
+		600F01201907BFAA005BDBBD /* will_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = will_mosq.h; path = mqttLib/will_mosq.h; sourceTree = "<group>"; };
+		600F012E1907C013005BDBBD /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = include/libcrypto.a; sourceTree = "<group>"; };
+		600F012F1907C013005BDBBD /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = include/libssl.a; sourceTree = "<group>"; };
 		606E824F1907A65600306C71 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aes.h; path = include/openssl/aes.h; sourceTree = "<group>"; };
 		606E82501907A65600306C71 /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = asn1_mac.h; path = include/openssl/asn1_mac.h; sourceTree = "<group>"; };
 		606E82511907A65600306C71 /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = asn1.h; path = include/openssl/asn1.h; sourceTree = "<group>"; };
@@ -136,31 +169,7 @@
 		606E82981907A65600306C71 /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = x509.h; path = include/openssl/x509.h; sourceTree = "<group>"; };
 		606E82991907A65600306C71 /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = x509v3.h; path = include/openssl/x509v3.h; sourceTree = "<group>"; };
 		606E829B1907A6B900306C71 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		606E829C1907A6B900306C71 /* dummypthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dummypthread.h; sourceTree = "<group>"; };
-		606E829D1907A6B900306C71 /* logging_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = logging_mosq.c; sourceTree = "<group>"; };
-		606E829E1907A6B900306C71 /* logging_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logging_mosq.h; sourceTree = "<group>"; };
-		606E829F1907A6B900306C71 /* memory_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memory_mosq.c; sourceTree = "<group>"; };
-		606E82A01907A6B900306C71 /* memory_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory_mosq.h; sourceTree = "<group>"; };
-		606E82A11907A6B900306C71 /* messages_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = messages_mosq.c; sourceTree = "<group>"; };
-		606E82A21907A6B900306C71 /* messages_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messages_mosq.h; sourceTree = "<group>"; };
-		606E82A31907A6B900306C71 /* mosquitto.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mosquitto.c; sourceTree = "<group>"; };
-		606E82A41907A6B900306C71 /* mosquitto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mosquitto.h; sourceTree = "<group>"; };
-		606E82A51907A6B900306C71 /* mosquitto_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mosquitto_internal.h; sourceTree = "<group>"; };
 		606E82A61907A6B900306C71 /* mqtt3_protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mqtt3_protocol.h; sourceTree = "<group>"; };
-		606E82A71907A6B900306C71 /* net_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = net_mosq.c; sourceTree = "<group>"; };
-		606E82A81907A6B900306C71 /* net_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net_mosq.h; sourceTree = "<group>"; };
-		606E82A91907A6B900306C71 /* read_handle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = read_handle.c; sourceTree = "<group>"; };
-		606E82AA1907A6B900306C71 /* read_handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = read_handle.h; sourceTree = "<group>"; };
-		606E82AB1907A6B900306C71 /* read_handle_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = read_handle_client.c; sourceTree = "<group>"; };
-		606E82AC1907A6B900306C71 /* read_handle_shared.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = read_handle_shared.c; sourceTree = "<group>"; };
-		606E82AD1907A6B900306C71 /* send_client_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = send_client_mosq.c; sourceTree = "<group>"; };
-		606E82AE1907A6B900306C71 /* send_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = send_mosq.c; sourceTree = "<group>"; };
-		606E82AF1907A6B900306C71 /* send_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = send_mosq.h; sourceTree = "<group>"; };
-		606E82B01907A6B900306C71 /* thread_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thread_mosq.c; sourceTree = "<group>"; };
-		606E82B11907A6B900306C71 /* util_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util_mosq.c; sourceTree = "<group>"; };
-		606E82B21907A6B900306C71 /* util_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util_mosq.h; sourceTree = "<group>"; };
-		606E82B31907A6B900306C71 /* will_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = will_mosq.c; sourceTree = "<group>"; };
-		606E82B41907A6B900306C71 /* will_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = will_mosq.h; sourceTree = "<group>"; };
 		606E82C31907A70A00306C71 /* ServerBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowserDelegate.h; sourceTree = "<group>"; };
 		606E82C41907A70A00306C71 /* ServerBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowser.h; sourceTree = "<group>"; };
 		606E82C51907A70A00306C71 /* ServerBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerBrowser.m; sourceTree = "<group>"; };
@@ -170,13 +179,6 @@
 		606E82CA1907A70A00306C71 /* mqttDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mqttDelegate.h; sourceTree = "<group>"; };
 		606E82CB1907A70A00306C71 /* MqttMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MqttMessage.h; sourceTree = "<group>"; };
 		606E82CC1907A70A00306C71 /* MqttMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MqttMessage.m; sourceTree = "<group>"; };
-		607363C01907B07D002DFA3B /* ca.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ca.crt; sourceTree = "<group>"; };
-		607363C11907B07D002DFA3B /* ipad.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ipad.crt; sourceTree = "<group>"; };
-		607363C21907B07D002DFA3B /* ipad.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ipad.key; sourceTree = "<group>"; };
-		607363C31907B07D002DFA3B /* iphone.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iphone.crt; sourceTree = "<group>"; };
-		607363C41907B07D002DFA3B /* iphone.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iphone.key; sourceTree = "<group>"; };
-		607363C51907B07D002DFA3B /* remote.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = remote.crt; sourceTree = "<group>"; };
-		607363C61907B07D002DFA3B /* remote.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = remote.key; sourceTree = "<group>"; };
 		607363C71907B07D002DFA3B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		60E37EDB1907A33900D45BA8 /* MQTT_Simple_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQTT_Simple_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E37EDE1907A33900D45BA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -197,8 +199,6 @@
 		60E37F051907A33900D45BA8 /* MQTT_Simple_appTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MQTT_Simple_appTests-Info.plist"; sourceTree = "<group>"; };
 		60E37F071907A33900D45BA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60E37F091907A33900D45BA8 /* MQTT_Simple_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQTT_Simple_appTests.m; sourceTree = "<group>"; };
-		60E37F141907A3A600D45BA8 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
-		60E37F151907A3A600D45BA8 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,10 +206,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60E37F171907A3A600D45BA8 /* libssl.a in Frameworks */,
+				600F01311907C013005BDBBD /* libssl.a in Frameworks */,
 				60E37EE11907A33900D45BA8 /* CoreGraphics.framework in Frameworks */,
 				60E37EE31907A33900D45BA8 /* UIKit.framework in Frameworks */,
-				60E37F161907A3A600D45BA8 /* libcrypto.a in Frameworks */,
+				600F01301907C013005BDBBD /* libcrypto.a in Frameworks */,
 				60E37EDF1907A33900D45BA8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,32 +328,32 @@
 		606E829A1907A69F00306C71 /* libmosquitto */ = {
 			isa = PBXGroup;
 			children = (
+				600F01091907BFAA005BDBBD /* memory_mosq.c */,
+				600F010A1907BFAA005BDBBD /* memory_mosq.h */,
+				600F010B1907BFAA005BDBBD /* messages_mosq.c */,
+				600F010C1907BFAA005BDBBD /* messages_mosq.h */,
+				600F010D1907BFAA005BDBBD /* mosquitto_internal.h */,
+				600F010E1907BFAA005BDBBD /* mosquitto.c */,
+				600F010F1907BFAA005BDBBD /* mosquitto.h */,
+				600F01101907BFAA005BDBBD /* net_mosq.c */,
+				600F01111907BFAA005BDBBD /* net_mosq.h */,
+				600F01121907BFAA005BDBBD /* read_handle_client.c */,
+				600F01131907BFAA005BDBBD /* read_handle_shared.c */,
+				600F01141907BFAA005BDBBD /* read_handle.c */,
+				600F01151907BFAA005BDBBD /* read_handle.h */,
+				600F01161907BFAA005BDBBD /* send_client_mosq.c */,
+				600F01171907BFAA005BDBBD /* send_mosq.c */,
+				600F01181907BFAA005BDBBD /* send_mosq.h */,
+				600F011C1907BFAA005BDBBD /* thread_mosq.c */,
+				600F011D1907BFAA005BDBBD /* util_mosq.c */,
+				600F011E1907BFAA005BDBBD /* util_mosq.h */,
+				600F011F1907BFAA005BDBBD /* will_mosq.c */,
+				600F01201907BFAA005BDBBD /* will_mosq.h */,
+				600F01041907BF83005BDBBD /* dummypthread.h */,
+				600F01061907BF83005BDBBD /* logging_mosq.c */,
+				600F01071907BF83005BDBBD /* logging_mosq.h */,
 				606E829B1907A6B900306C71 /* config.h */,
-				606E829C1907A6B900306C71 /* dummypthread.h */,
-				606E829D1907A6B900306C71 /* logging_mosq.c */,
-				606E829E1907A6B900306C71 /* logging_mosq.h */,
-				606E829F1907A6B900306C71 /* memory_mosq.c */,
-				606E82A01907A6B900306C71 /* memory_mosq.h */,
-				606E82A11907A6B900306C71 /* messages_mosq.c */,
-				606E82A21907A6B900306C71 /* messages_mosq.h */,
-				606E82A31907A6B900306C71 /* mosquitto.c */,
-				606E82A41907A6B900306C71 /* mosquitto.h */,
-				606E82A51907A6B900306C71 /* mosquitto_internal.h */,
 				606E82A61907A6B900306C71 /* mqtt3_protocol.h */,
-				606E82A71907A6B900306C71 /* net_mosq.c */,
-				606E82A81907A6B900306C71 /* net_mosq.h */,
-				606E82A91907A6B900306C71 /* read_handle.c */,
-				606E82AA1907A6B900306C71 /* read_handle.h */,
-				606E82AB1907A6B900306C71 /* read_handle_client.c */,
-				606E82AC1907A6B900306C71 /* read_handle_shared.c */,
-				606E82AD1907A6B900306C71 /* send_client_mosq.c */,
-				606E82AE1907A6B900306C71 /* send_mosq.c */,
-				606E82AF1907A6B900306C71 /* send_mosq.h */,
-				606E82B01907A6B900306C71 /* thread_mosq.c */,
-				606E82B11907A6B900306C71 /* util_mosq.c */,
-				606E82B21907A6B900306C71 /* util_mosq.h */,
-				606E82B31907A6B900306C71 /* will_mosq.c */,
-				606E82B41907A6B900306C71 /* will_mosq.h */,
 			);
 			name = libmosquitto;
 			sourceTree = "<group>";
@@ -361,13 +361,13 @@
 		60E37ED21907A33900D45BA8 = {
 			isa = PBXGroup;
 			children = (
-				607363C01907B07D002DFA3B /* ca.crt */,
-				607363C11907B07D002DFA3B /* ipad.crt */,
-				607363C21907B07D002DFA3B /* ipad.key */,
-				607363C31907B07D002DFA3B /* iphone.crt */,
-				607363C41907B07D002DFA3B /* iphone.key */,
-				607363C51907B07D002DFA3B /* remote.crt */,
-				607363C61907B07D002DFA3B /* remote.key */,
+				600F00F61907BF66005BDBBD /* ca.crt */,
+				600F00F71907BF66005BDBBD /* ipad.crt */,
+				600F00F81907BF66005BDBBD /* ipad.key */,
+				600F00F91907BF66005BDBBD /* iphone.crt */,
+				600F00FA1907BF66005BDBBD /* iphone.key */,
+				600F00FB1907BF66005BDBBD /* remote.crt */,
+				600F00FC1907BF66005BDBBD /* remote.key */,
 				607363C71907B07D002DFA3B /* README */,
 				606E829A1907A69F00306C71 /* libmosquitto */,
 				606E824E1907A64200306C71 /* include */,
@@ -446,8 +446,8 @@
 		60E37F131907A38900D45BA8 /* openssl */ = {
 			isa = PBXGroup;
 			children = (
-				60E37F141907A3A600D45BA8 /* libcrypto.a */,
-				60E37F151907A3A600D45BA8 /* libssl.a */,
+				600F012E1907C013005BDBBD /* libcrypto.a */,
+				600F012F1907C013005BDBBD /* libssl.a */,
 			);
 			name = openssl;
 			sourceTree = "<group>";
@@ -531,17 +531,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				600F01011907BF66005BDBBD /* iphone.key in Resources */,
+				600F00FD1907BF66005BDBBD /* ca.crt in Resources */,
 				60E37EF71907A33900D45BA8 /* Images.xcassets in Resources */,
 				607363CF1907B07D002DFA3B /* README in Resources */,
-				607363CA1907B07D002DFA3B /* ipad.key in Resources */,
-				607363C81907B07D002DFA3B /* ca.crt in Resources */,
-				607363CB1907B07D002DFA3B /* iphone.crt in Resources */,
-				607363CC1907B07D002DFA3B /* iphone.key in Resources */,
+				600F00FE1907BF66005BDBBD /* ipad.crt in Resources */,
+				600F01031907BF66005BDBBD /* remote.key in Resources */,
+				600F01001907BF66005BDBBD /* iphone.crt in Resources */,
+				600F00FF1907BF66005BDBBD /* ipad.key in Resources */,
 				60E37EE91907A33900D45BA8 /* InfoPlist.strings in Resources */,
 				60E37EF21907A33900D45BA8 /* Main.storyboard in Resources */,
-				607363C91907B07D002DFA3B /* ipad.crt in Resources */,
-				607363CD1907B07D002DFA3B /* remote.crt in Resources */,
-				607363CE1907B07D002DFA3B /* remote.key in Resources */,
+				600F01021907BF66005BDBBD /* remote.crt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,25 +560,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				600F01231907BFAA005BDBBD /* mosquitto.c in Sources */,
+				600F01241907BFAA005BDBBD /* net_mosq.c in Sources */,
 				606E82CE1907A70A00306C71 /* MqttClient.m in Sources */,
-				606E82BC1907A6B900306C71 /* read_handle_shared.c in Sources */,
 				606E82CD1907A70A00306C71 /* ServerBrowser.m in Sources */,
 				60E37EF51907A33900D45BA8 /* ViewController.m in Sources */,
-				606E82B81907A6B900306C71 /* mosquitto.c in Sources */,
-				606E82C11907A6B900306C71 /* will_mosq.c in Sources */,
-				606E82BE1907A6B900306C71 /* send_mosq.c in Sources */,
-				606E82C01907A6B900306C71 /* util_mosq.c in Sources */,
+				600F01281907BFAA005BDBBD /* send_client_mosq.c in Sources */,
+				600F01251907BFAA005BDBBD /* read_handle_client.c in Sources */,
+				600F01261907BFAA005BDBBD /* read_handle_shared.c in Sources */,
+				600F012D1907BFAA005BDBBD /* will_mosq.c in Sources */,
+				600F01211907BFAA005BDBBD /* memory_mosq.c in Sources */,
 				60E37EEF1907A33900D45BA8 /* AppDelegate.m in Sources */,
-				606E82BB1907A6B900306C71 /* read_handle_client.c in Sources */,
 				606E82CF1907A70A00306C71 /* MqttMessage.m in Sources */,
-				606E82B51907A6B900306C71 /* logging_mosq.c in Sources */,
-				606E82B71907A6B900306C71 /* messages_mosq.c in Sources */,
-				606E82B91907A6B900306C71 /* net_mosq.c in Sources */,
-				606E82BF1907A6B900306C71 /* thread_mosq.c in Sources */,
-				606E82BA1907A6B900306C71 /* read_handle.c in Sources */,
-				606E82B61907A6B900306C71 /* memory_mosq.c in Sources */,
-				606E82BD1907A6B900306C71 /* send_client_mosq.c in Sources */,
+				600F012B1907BFAA005BDBBD /* thread_mosq.c in Sources */,
+				600F01081907BF83005BDBBD /* logging_mosq.c in Sources */,
+				600F01291907BFAA005BDBBD /* send_mosq.c in Sources */,
+				600F012C1907BFAA005BDBBD /* util_mosq.c in Sources */,
+				600F01271907BFAA005BDBBD /* read_handle.c in Sources */,
 				60E37EEB1907A33900D45BA8 /* main.m in Sources */,
+				600F01221907BFAA005BDBBD /* messages_mosq.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,6 +713,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/include",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -734,6 +735,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/include",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
