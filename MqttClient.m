@@ -8,9 +8,8 @@
 
 #import "MqttClient.h"
 #import "mosquitto.h"
-#import "mqtt_strings.h"
+
 #import "MqttMessage.h"
-#import "GlobalStrings.h"
 #import <sys/sysctl.h>
 
 
@@ -22,6 +21,7 @@
 @synthesize password;
 @synthesize keepAlive;
 @synthesize cleanSession;
+NSString *hostString;
 #define trace_on
 
 - (NSString *)platformRawString {
@@ -147,6 +147,7 @@ static void on_unsubscribe(struct mosquitto *mosq, void *obj, int message_id)
     mosquitto_lib_init();
     int major, minor, revision;
     mosquitto_lib_version(&major, &minor, &revision);
+    hostString=@"127.0.0.1";
 #ifdef trace_on
     NSLog(@"MQTTCLIENT: %@",[NSString stringWithFormat:@"%d.%d.%d", major, minor, revision]);
 #endif

@@ -161,12 +161,10 @@
 		606E82B21907A6B900306C71 /* util_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util_mosq.h; sourceTree = "<group>"; };
 		606E82B31907A6B900306C71 /* will_mosq.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = will_mosq.c; sourceTree = "<group>"; };
 		606E82B41907A6B900306C71 /* will_mosq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = will_mosq.h; sourceTree = "<group>"; };
-		606E82C21907A70A00306C71 /* mqtt_strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mqtt_strings.h; sourceTree = "<group>"; };
 		606E82C31907A70A00306C71 /* ServerBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowserDelegate.h; sourceTree = "<group>"; };
 		606E82C41907A70A00306C71 /* ServerBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowser.h; sourceTree = "<group>"; };
 		606E82C51907A70A00306C71 /* ServerBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerBrowser.m; sourceTree = "<group>"; };
 		606E82C61907A70A00306C71 /* getMacAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getMacAddress.h; sourceTree = "<group>"; };
-		606E82C71907A70A00306C71 /* GlobalStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalStrings.h; sourceTree = "<group>"; };
 		606E82C81907A70A00306C71 /* MqttClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MqttClient.h; sourceTree = "<group>"; };
 		606E82C91907A70A00306C71 /* MqttClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MqttClient.m; sourceTree = "<group>"; };
 		606E82CA1907A70A00306C71 /* mqttDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mqttDelegate.h; sourceTree = "<group>"; };
@@ -232,12 +230,10 @@
 		606E824D1907A61E00306C71 /* mqttService */ = {
 			isa = PBXGroup;
 			children = (
-				606E82C21907A70A00306C71 /* mqtt_strings.h */,
 				606E82C31907A70A00306C71 /* ServerBrowserDelegate.h */,
 				606E82C41907A70A00306C71 /* ServerBrowser.h */,
 				606E82C51907A70A00306C71 /* ServerBrowser.m */,
 				606E82C61907A70A00306C71 /* getMacAddress.h */,
-				606E82C71907A70A00306C71 /* GlobalStrings.h */,
 				606E82C81907A70A00306C71 /* MqttClient.h */,
 				606E82C91907A70A00306C71 /* MqttClient.m */,
 				606E82CA1907A70A00306C71 /* mqttDelegate.h */,
